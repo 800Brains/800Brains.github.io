@@ -57,30 +57,51 @@ const ContactForm = () => {
             </div>
 
             <div className="social-btn-area pb-110">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-3 col-lg-3 col-md-6">
-                            <Link to="https://www.facebook.com/share/1AwpdstAph/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="l-btn">
-                                <FaFacebook /> Facebook
-                            </Link>
-                        </div>
-                        <div className="col-xl-3 col-lg-3 col-md-6">
-                            <Link to="https://x.com/propreserveng?s=11" target="_blank" rel="noopener noreferrer" className="l-btn">
-                                <FaTwitter /> Twitter
-                            </Link>
-                        </div>
-                        <div className="col-xl-3 col-lg-3 col-md-6">
-                            <Link to="https://www.instagram.com/liamsphere_propreserveng?igsh=MTdnZW5jYWdkZXBpbA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="l-btn">
-                                <FaInstagram /> Instagram
-                            </Link>
-                        </div>
-                        <div className="col-xl-3 col-lg-3 col-md-6">
-                            <Link to="https://linkedin.com/company/liamsphere" target="_blank" rel="noopener noreferrer" className="l-btn">
-                                <FaLinkedin /> LinkedIn
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+    <div className="container">
+        <div className="row">
+            <div className="col-xl-3 col-lg-3 col-md-6">
+                <a 
+                    href="https://www.facebook.com/share/1AwpdstAph/?mibextid=wwXIfr" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="l-btn"
+                >
+                    <FaFacebook /> Facebook
+                </a>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6">
+                <a 
+                    href="https://x.com/propreserveng?s=11" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="l-btn"
+                >
+                    <FaTwitter /> Twitter
+                </a>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6">
+                <a 
+                    href="https://www.instagram.com/liamsphere_propreserveng?igsh=MTdnZW5jYWdkZXBpbA%3D%3D&utm_source=qr" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="l-btn"
+                >
+                    <FaInstagram /> Instagram
+                </a>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6">
+                <a 
+                    href="https://linkedin.com/company/liamsphere" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="l-btn"
+                >
+                    <FaLinkedin /> LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
             </div>
         </>
     )
